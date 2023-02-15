@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   //fetch data from server 
-  const response = await fetch('http://localhost:3000',{
+  const response = await fetch('https://codex-oxft.onrender.com',{
     method:'POST',
     headers:{
         'Content-Type':'application/json'
